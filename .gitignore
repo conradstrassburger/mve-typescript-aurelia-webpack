@@ -1,3 +1,6 @@
 node_modules
-public/src/
-.DS_Store
+*.iml
+*.bak
+
+.*
+!.gitignore

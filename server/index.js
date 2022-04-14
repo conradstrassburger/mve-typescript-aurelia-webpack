@@ -5,7 +5,7 @@ const url = require('url');
 
 const PORT = 3000;
 const SRC_BUILD_FOLDER_PATTERN = '/src/';
-const SERVER_ROOT_FOLDER = './public';
+const SERVER_ROOT_FOLDER = './dist';
 
 const determineContentType = extension => {
   const map = {
